@@ -1,11 +1,9 @@
-### Get All Users
+
 
 GET http://localhost:3000/users
 Content-Type: application/json
 
-###
 
-### Register User
 
 POST http://localhost:3000/register
 Content-Type: application/json
@@ -16,9 +14,7 @@ Content-Type: application/json
     "password": "Tetew"
 }
 
-###
 
-### Login User
 
 POST http://localhost:3000/login
 Content-Type: application/json
