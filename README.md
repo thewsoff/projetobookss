@@ -1,24 +1,55 @@
-Backend em TypeScript com Arquitetura MVC
-Este projeto é um backend desenvolvido em TypeScript seguindo a arquitetura Model-View-Controller. Ele utiliza PostgreSQL como banco de dados relacional e oferece funcionalidades de autenticação.
+# Backend em TypeScript com Arquitetura MVC
 
-Estrutura do Projeto
-Controllers: Responsáveis por receber e processar as requisições HTTP, interagir com os serviços e retornar as respostas apropriadas.
-Routes: Definem as rotas da aplicação, conectando as requisições às funções dos controladores.
-Models: Representam as tabelas do banco de dados e suas respectivas estruturas, funcionando como o mapeamento das entidades.
-Repositories: Realizam operações diretamente no banco de dados, como consultas, inserções, atualizações e exclusões.
-Services: Contêm a lógica de negócios, como validações, regras específicas e orquestração das interações entre repositórios e controladores.
-Como Executar o Projeto
-Clonar o Repositório: Baixe o código-fonte para sua máquina local.
-Instalar Dependências: Configure o ambiente instalando todas as bibliotecas necessárias.
-Iniciar o Servidor: Execute o comando adequado para iniciar o servidor local.
-Funcionalidades Disponíveis
-Autenticação
-Cadastro de Usuário
-Permite criar uma conta no sistema.
-Durante o cadastro, os dados do usuário são salvos no banco de dados e a senha é armazenada de forma criptografada para maior segurança.
-Retorna os dados do usuário recém-criado, excluindo informações sensíveis como a senha.
-Login de Usuário
-Permite que usuários façam login no sistema utilizando email e senha.
-Após a autenticação, é gerada uma sessão ou token que permite ao usuário acessar áreas protegidas da aplicação.
-Retorna os dados do usuário autenticado, sem incluir a senha, e informações sobre a sessão ativa.
-Este projeto foi estruturado com foco em organização, segurança e escalabilidade, garantindo uma base sólida para futuras implementações e melhorias.
+Este projeto é um backend desenvolvido em TypeScript, estruturado segundo a arquitetura MVC (Model-View-Controller). Ele utiliza o banco de dados PostgreSQL e implementa funcionalidades de autenticação.
+
+---
+
+## 📂 Estrutura do Projeto
+
+- **Controllers**: Responsáveis por gerenciar as requisições HTTP, processando dados e retornando respostas adequadas.
+- **Routes**: Definem as rotas e conectam as requisições às funções correspondentes nos controladores.
+- **Models**: Representam as entidades e tabelas no banco de dados.
+- **Repositories**: Gerenciam as interações diretas com o banco de dados, incluindo consultas e manipulações de dados.
+- **Services**: Contêm a lógica de negócios, validando e aplicando regras às operações realizadas.
+
+---
+
+## 🚀 Como Executar o Projeto
+
+1. Clone o repositório para sua máquina local.
+2. Instale todas as dependências necessárias para o funcionamento do projeto.
+3. Inicie o servidor para que ele fique disponível para requisições.
+
+---
+
+## 📌 Funcionalidades Disponíveis
+
+### 🔑 Autenticação
+
+#### Cadastro de Usuário
+- Permite criar um novo usuário no sistema.
+- Durante o processo, a senha fornecida é criptografada para garantir a segurança.
+- Retorna os dados do usuário criado, exceto informações sensíveis, como a senha.
+
+#### Login de Usuário
+- Realiza a autenticação de um usuário já registrado no sistema.
+- Após a autenticação, uma sessão é criada e um token de acesso é fornecido.
+- Retorna os dados do usuário autenticado e detalhes da sessão, excluindo a senha.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- TypeScript, para uma tipagem mais segura e robusta.
+- Node.js, como plataforma para execução do backend.
+- PostgreSQL, para armazenamento de dados.
+- Ferramentas de criptografia para segurança de credenciais.
+- Frameworks e bibliotecas modernas para facilitar a criação de APIs.
+
+---
+
+
+## 📝 Licença
+
+By : Matheus dos Santos Souza
+
