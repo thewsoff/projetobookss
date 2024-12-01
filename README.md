@@ -1,3 +1,4 @@
+# Link front end integrado com projeto bookstore : **https://github.com/thewsoff/Front-Bookstore**
 # Backend em TypeScript com Arquitetura MVC
 
 Este projeto é um backend desenvolvido em TypeScript, estruturado segundo a arquitetura MVC (Model-View-Controller). Ele utiliza o banco de dados PostgreSQL e implementa funcionalidades de autenticação.
@@ -52,4 +53,5 @@ Este projeto é um backend desenvolvido em TypeScript, estruturado segundo a arq
 ## 📝 Licença
 
 By : Matheus dos Santos Souza
+Front End :  **https://github.com/thewsoff/Front-Bookstore**
 
